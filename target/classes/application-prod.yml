@@ -1,0 +1,20 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        prod
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    driverClassName: org.postgresql.Driver
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:db/schema-postgre.sql
+      data-locations: classpath:db/data.sql
