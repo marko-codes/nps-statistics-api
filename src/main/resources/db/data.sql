@@ -169,7 +169,7 @@ INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUE
 INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-02-01', '2022-03-01', 10, 'Product`s ease of use');
 INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-03-01', '2022-03-01', 2, 'Product`s quality');
 
-INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-07-01', '2022-03-01', 4, 'Product`s quality');
+INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-07-01', '2022-03-01', 10, 'Product`s quality');
 INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-05-01', '2022-03-01', 8, 'Pricing');
 INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-06-01', '2022-03-01', 10, 'Product`s ease of use');
 INSERT INTO Survey (country, answer_date, start_date, rating, improvement) VALUES ('Switzerland', '2023-05-01', '2022-03-01', 9, 'Product`s quality');
